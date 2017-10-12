@@ -1,0 +1,7 @@
+HelloIntent hi
+HelloIntent hello
+HelloIntent greet me
+HelloIntent say hello
+HelloIntent to greet people
+HelloIntent to say hello
+HelloIntent to greet me
