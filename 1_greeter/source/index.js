@@ -14,8 +14,8 @@ var helloResponseFunction = function(intent, session, response) {
 GreeterService.prototype.eventHandlers.onLaunch = helloResponseFunction;
 
 GreeterService.prototype.intentHandlers = {
-	"HelloIntent": helloResponseFunction
-  },
+	
+	"HelloIntent": helloResponseFunction,
 	
 	"AMAZON.HelpIntent": function (intent, session, response) {
         response.ask("You can say hi or hello or greet me");
